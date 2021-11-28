@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title></title>
+      <link href="/2021/11/27/suan-fa/"/>
+      <url>/2021/11/27/suan-fa/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>测试</p></blockquote><p>1、c++数字和字符串相互转化</p><pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown"><span class="token title important"><span class="token punctuation">#</span> 数字转字符串</span> string s = to_string(i);<span class="token title important"><span class="token punctuation">#</span> 字符串转数字</span> int i = atoi(s.c_str());<span class="token title important"><span class="token punctuation">#</span> 使用sprintf和sscanf</span> //整数转字符串 sprintf(str,"%d",i); //将浮点数转化为字符串 sprintf(str1,"%.3f",b);//.3f是设置格式，不然字符串会变为123.567000  //字符串转化为数z sscanf(str,"%d",&amp;a);<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2021/11/11/hello-world/"/>
       <url>/2021/11/11/hello-world/</url>
